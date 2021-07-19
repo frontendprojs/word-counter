@@ -1,0 +1,52 @@
+#h1 {
+    margin-left: 260px;
+    font-family: Verdana;
+}
+
+#container #cont {
+    margin-left:160px;
+}
+
+#container #cont #p1 {
+    margin-left: 160px;
+    font-family:cursive
+}
+
+#container #cont #stat {
+    margin-left: 100px;
+    font-family:cursive;
+}
+
+#container #cont #text {
+    background-color:floralwhite;
+    transition: background-color 1s, color 1s, border 1s, box-shadow 1s;
+    border: none;
+}
+#container #cont #text:hover {
+    background-color:black;
+    color: white;
+    box-shadow: 5px 5px grey;
+}
+
+#container {
+    background-color:darksalmon;
+    height: 500px;
+    width: 800px;
+    margin-left: 360px;
+    margin-top: 120px;
+    transition: box-shadow 1s;
+}
+
+#container:hover {
+    box-shadow: 8px 8px black;
+}
+
+#help {
+    box-sizing: border-box;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+html {
+    background-color:indianred
+}
